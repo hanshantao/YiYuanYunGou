@@ -30,6 +30,7 @@
 - (UIViewController*)loadFramework
 {
     //test
+    //now add new branch
     NSLog(@"%@",NSHomeDirectory());
     NSString* libFile = [NSString stringWithFormat:@"%@/Documents/OY.framework",NSHomeDirectory()];
     //判断一下有没有这个文件的存在　如果没有直接跳出
